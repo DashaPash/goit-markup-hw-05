@@ -332,8 +332,10 @@ body {
   line-height: 0.88;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
 
-  padding: 27px 82px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   color: var(--white-color);
 }
 
@@ -440,6 +442,8 @@ body {
   height: 92px;
   border: 1px solid var(--icons-border-color);
   border-radius: 4px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
@@ -449,6 +453,8 @@ body {
 
 .client-icon {
   fill: var(--icons-border-color);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover .client-icon,
@@ -503,6 +509,8 @@ body {
 .phone-number {
   color: var(--white-transparent-color);
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .welcome-text {
@@ -526,6 +534,7 @@ body {
 
 .icon-studio-link {
   background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-studio-link:hover,
